@@ -25,9 +25,9 @@ public class WordList
   {
     /* to be implemented in part (b) */
     int i = 0; 
-    while (i < myList.size()) 1 { 
+    while (i < myList.size()) { 
       if (((String)myList.get(i)).length() == len) 
-        myList.remove(i); 2 
+        myList.remove(i);
     else 
       i++; 
     }
